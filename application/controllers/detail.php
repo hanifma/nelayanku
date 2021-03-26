@@ -15,7 +15,7 @@ Class Detail extends CI_Controller {
 	{
 		$data['main_view'] = "Landing/Detail";
  		
-		$this->load->view('landing/marketplace_template', $data);
+		$this->load->view('Landing/Marketplace_Template', $data);
 
 
 	}
@@ -26,7 +26,7 @@ Class Detail extends CI_Controller {
 		$detil_barang = $this->Barang_admin_model->get_detil_barang_by_id($id);
 		$data['detail_barang'] = $detil_barang;
 
-		$this->load->view('landing/marketplace_template', $data);
+		$this->load->view('Landing/Marketplace_Template', $data);
 	}
 
 	public function tambah_ke_keranjang()
