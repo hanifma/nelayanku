@@ -6,7 +6,7 @@ class Kategori_admin extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-		$this->load->model('kategori_admin_model');
+		$this->load->model('Kategori_admin_model');
 	}
 
 	public function index()

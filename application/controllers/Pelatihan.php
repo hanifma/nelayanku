@@ -5,6 +5,6 @@ Class Pelatihan extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('Landing/pelatihan');
+		$this->load->view('Landing/Pelatihan');
 	}
 }
