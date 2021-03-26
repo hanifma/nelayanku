@@ -27,7 +27,7 @@ Class Marketplace extends CI_Controller {
 
 	public function detil()
 	{
-		$this->load->view('Landing/detail');
+		$this->load->view('Landing/Detail');
 	}
 
 	public function tambah_keranjang($id)

@@ -15,7 +15,7 @@ Class cart extends CI_Controller {
 		// $data['account'] = $this->account_model->get_account();
  		$data['cart_transaksi'] = $this->Cart_model->get_cart();
  		$data['cart'] = $this->Cart_model->get_cart();
-		$this->load->view('landing/marketplace_template', $data);
+		$this->load->view('Landing/Marketplace_Template', $data);
 	}
 
 	public function cart()

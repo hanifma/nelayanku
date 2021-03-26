@@ -16,7 +16,7 @@ Class Preorder extends CI_Controller {
 			$data['preorder'] = $this->Preorder_model->get_preorder();
 			$data['barang'] = $this->Preorder_model->get_barang();
 	 		
-			$this->load->view('landing/marketplace_template', $data);
+			$this->load->view('Landing/Marketplace_Template', $data);
 		}else {
 			redirect('Marketplace/index');
 		}

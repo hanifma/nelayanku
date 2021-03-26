@@ -12,10 +12,10 @@ Class Account extends CI_Controller {
 	public function index()
 	{
 		if($this->session->userdata('logged_in') == TRUE){
-			$data['main_view'] = "Landing/account";
+			$data['main_view'] = "Landing/Account";
 			$data['account'] = $this->Account_model->get_Account();
 	 		
-			$this->load->view('landing/marketplace_template', $data);
+			$this->load->view('Landing/Marketplace_Template', $data);
 		}else {
 			redirect('Marketplace/index');
 		}

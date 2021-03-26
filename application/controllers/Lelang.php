@@ -15,7 +15,7 @@ Class Lelang extends CI_Controller {
 			$data['main_view'] = "Landing/lelang";
 			// $data['account'] = $this->Account_model->get_Account();
 	 		
-			$this->load->view('landing/marketplace_template', $data);
+			$this->load->view('Landing/Marketplace_Template', $data);
 		}else {
 			redirect('Marketplace/index');
 		}

@@ -13,7 +13,7 @@ Class Shopdetail extends CI_Controller {
 	{
 		$data['main_view'] = "Landing/shopdetail";
 		$data['buku'] = $this->Barang_admin_model->get_buku();
-		$this->load->view('landing/marketplace_template', $data);
+		$this->load->view('Landing/Marketplace_Template', $data);
 
 
 	}
