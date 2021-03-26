@@ -17,7 +17,7 @@ class Dashboard extends CI_Controller {
 			// $data['jml_buku'] = $this->dashboard_model->get_jml_buku();
 			// $data['jml_transaksi'] = $this->dashboard_model->get_jml_transaksi();
 			// $data['jml_pengguna'] = $this->dashboard_model->get_jml_pengguna();
-			$this->load->view('admin/template', $data);
+			$this->load->view('Admin/template', $data);
 
 		} else {
 			redirect('login_admin/index');
