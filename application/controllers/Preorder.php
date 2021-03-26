@@ -12,7 +12,7 @@ Class Preorder extends CI_Controller {
 	public function index()
 	{
 		if($this->session->userdata('logged_in') == TRUE){
-			$data['main_view'] = "Landing/preorder";
+			$data['main_view'] = "Landing/Preorder";
 			$data['preorder'] = $this->Preorder_model->get_preorder();
 			$data['barang'] = $this->Preorder_model->get_barang();
 	 		
